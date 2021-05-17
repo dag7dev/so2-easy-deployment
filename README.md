@@ -2,12 +2,13 @@
 easy deployment bash script for operating system homework - Università La Sapienza
 
 # Cosa fa questo script
-Scritto affinché testare gli esercizi di sistemi operativi non fosse un'impresa micidiale ogni volta.
+Scritto affinché testare gli esercizi di sistemi operativi non fosse un'impresa ogni volta.
 Questo script serve a testare gli homework di SO2 in maniera semplice, evitando di copiare e creare file manualmente.
+
 Crea un file zippato pronto per la consegna che puoi trovare in grader.graderNumber
 
 **NB: Al momento funziona ed è testato solo per l'homework 2**.
-
+**NB2: Al momento l'archivio zip "pronto per la consegna" viene creato solo se stai facendo un homework o li hai fatti tutti**
 
 
 # Istruzioni 📝
