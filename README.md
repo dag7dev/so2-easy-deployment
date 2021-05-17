@@ -28,21 +28,21 @@ Uso: ./deploy.sh matricola ngrader es
 ```
 
 # QA Time 🕐
-Q: Gli anni della cartella che mi crea sono sbagliati, cosa posso fare?
-A: In caso di necessita', e' necessario settare a mano gli anni nel quale si sta eseguendo l'homework nello script, cambiando manualmente i parametri year1 e year2
+- Q: **Gli anni della cartella** che mi crea **sono sbagliati**, cosa posso fare?
+  - A: In caso di necessita', e' necessario settare a mano gli anni nel quale si sta eseguendo l'homework nello script, **cambiando manualmente i parametri year1 e year2**
 
-Q: ho inserito l'archivio compressato del prof, grader.graderNumber ma non funziona nulla, che devo fare?
-A: lo script prevede che tu abbia già scompattato l'archivio. Però se vuoi implementare tu questa funzione, fai una PR, sei il benvenuto!
+- Q: h**o inserito l'archivio zip del prof**, grader.graderNumber.zip **ma non funziona nulla**, che devo fare?
+  - A: lo script prevede che tu **abbia già scompattato l'archivio**. Però se vuoi implementare tu questa funzione, f**ai una PR, sei il benvenuto**!
 
-Q: Ho fatto solo HW1 e HW3 e voglio testare solo quegli homework lì. Come posso fare?
-A: Non ho tempo per implementare la scelta selettiva degli homework, testerei gli hw singolarmente, però se vuoi effettuare una PR e darmi una mano sei il benvenuto!
+- Q: Ho fatto **solo** HW1 e HW3 e voglio testare solo quegli homework lì. Come posso fare?
+  - A: Non ho tempo per implementare la scelta selettiva degli homework, testerei gli hw singolarmente, però **se vuoi effettuare una PR e darmi una mano sei il benvenuto!**
 
-Q: Ho eseguito lo script senza file, non funziona nulla. Che succede?
-A: questo script deve trovarsi in una cartella con: grader.<numeroGrader> e cartelle con gli homework dentro (es. 1)
+- Q: Ho eseguito lo script senza file, **non funziona nulla**. Che succede?
+  - A: questo script **deve trovarsi** in una cartella con: grader.numeroGrader e cartelle con gli homework dentro (es. 1)
 Esempio dopo aver eseguito ls: 1  deploy.sh  grader.2
-
-Q: Lo renderai compatibile con la procedura dell'homework 1?
-A: Non ho tempo per farlo ora, però se vuoi effettuare una PR e darmi una mano sei il benvenuto!
+  
+- Q: Lo renderai **compatibile** con la procedura dell'**homework 1**?
+  - A: Non ho tempo per farlo ora, però **se vuoi effettuare una PR e darmi una mano sei il benvenuto**!
 
 # Nota finale
 Settare il deployment è importante, ricordati di lasciare una 💫 se lo script ti è stato utile!
