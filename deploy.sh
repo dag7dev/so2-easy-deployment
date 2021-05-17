@@ -50,7 +50,7 @@ if [ $1 = "-h" ]; then
 	
 	echo -e "
 	Questo script serve a testare gli homework di SO2 in maniera semplice, evitando di copiare e creare file manualmente.
-	Crea un file zippato pronto per la consegna che puoi trovare in grader.<graderYear>
+	Crea un file zippato pronto per la consegna che puoi trovare in grader.<graderNumber>
 	Al momento funziona ed è testato solo per l'homework 2.
 	
 	-------
@@ -58,7 +58,7 @@ if [ $1 = "-h" ]; then
 	A:In caso di necessita', e' necessario settare a mano gli anni nel quale si sta eseguendo l'homework nello script, cambiando manualmente i parametri year1 e year2
 	\n
 	Q: ho eseguito lo script senza file, non funziona nulla. Che succede?
-	A: questo script deve trovarsi in una cartella con: grader.<numeroGrader> e cartelle con gli homework dentro (es. 1)\n
+	A: questo script deve trovarsi in una cartella con: grader.<graderNumber> e cartelle con gli homework dentro (es. 1)\n
 	Esempio dopo aver eseguito ls: 1  deploy.sh  grader.2
 
 	Leggi il README di Github per tutto il resto: https://github.com/dag7dev/so2-easy-deployment
