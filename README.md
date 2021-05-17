@@ -8,6 +8,7 @@ Questo script serve a testare gli homework di SO2 in maniera semplice, evitando 
 Crea un file zippato pronto per la consegna che puoi trovare in grader.graderNumber
 
 **NB: Al momento funziona ed è testato solo per l'homework 2**.
+
 **NB2: Al momento l'archivio zip "pronto per la consegna" viene creato solo se stai facendo un homework o li hai fatti tutti**
 
 
