@@ -5,11 +5,9 @@ easy deployment bash script for operating system homework - Università La Sapie
 Scritto affinché testare gli esercizi di sistemi operativi non fosse un'impresa ogni volta.
 Questo script serve a testare gli homework di SO2 in maniera semplice, evitando di copiare e creare file manualmente.
 
-Crea un file zippato pronto per la consegna che puoi trovare in grader.graderNumber
-
 **NB: Al momento funziona ed è testato solo per l'homework 2**.
 
-**NB2: Al momento l'archivio zip "pronto per la consegna" viene creato solo se stai facendo un homework o li hai fatti tutti**
+**NB2: l'archivio non è buono per la consegna, non ho idea del perchè. Se qualcuno vuole sistemarlo è il benvenuto**
 
 
 # Istruzioni 📝
@@ -31,7 +29,7 @@ Uso: ./deploy.sh matricola ngrader es
 - Q: **Gli anni della cartella** che mi crea **sono sbagliati**, cosa posso fare?
   - A: In caso di necessita', e' necessario settare a mano gli anni nel quale si sta eseguendo l'homework nello script, **cambiando manualmente i parametri year1 e year2**
 
-- Q: h**o inserito l'archivio zip del prof**, grader.graderNumber.zip **ma non funziona nulla**, che devo fare?
+- Q: **ho inserito l'archivio zip del prof**, grader.graderNumber.zip **ma non funziona nulla**, che devo fare?
   - A: lo script prevede che tu **abbia già scompattato l'archivio**. Però se vuoi implementare tu questa funzione, f**ai una PR, sei il benvenuto**!
 
 - Q: Ho fatto **solo** HW1 e HW3 e voglio testare solo quegli homework lì. Come posso fare?
